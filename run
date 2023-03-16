@@ -1,0 +1,8 @@
+if [ -d "shadow.data" ]; then
+  echo "  "
+  printf '%s\n' "Removing directory shadow.data"
+  rm -rf "shadow.data"
+  echo "  "
+fi
+
+shadow shadow.yaml > hugo.log
