@@ -1,0 +1,20 @@
+general:
+  stop_time: 10s
+  model_unblocked_syscall_latency: true
+
+network:
+  graph:
+    type: 1_gbit_switch
+
+hosts:
+  server:
+    network_node_id: 0
+    processes:
+    - path: hugo_server
+      start_time: 0s
+  client:
+    network_node_id: 0
+    quantity: 1
+    processes:
+    - path: hugo_client
+      start_time: 2s
