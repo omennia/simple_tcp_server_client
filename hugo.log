@@ -1,0 +1,1702 @@
+00:00:00.000001 [7084:shadow] n/a [INFO] [n/a] [main.c:71] [main_logBuildInfo] Starting Shadow v2.4.0-195-g8003656d-dirty 2023-03-07--08:27:31 with GLib v2.72.4
+00:00:00.000047 [7084:shadow] n/a [INFO] [n/a] [main.c:75] [main_logBuildInfo] Shadow was built from branch main on 2023-03-29--22:28:05 in Release mode with compile options: -O3 and link options: -Wl,--no-as-needed
+00:00:00.000048 [7084:shadow] n/a [INFO] [n/a] [main.c:76] [main_logBuildInfo] For more information, visit https://shadow.github.io or https://github.com/shadow
+00:00:00.000049 [7084:shadow] n/a [INFO] [n/a] [main.c:77] [main_logBuildInfo] Logging current startup arguments and environment
+00:00:00.000050 [7084:shadow] n/a [INFO] [n/a] [main.rs:305] [shadow_rs::core::main] arg: shadow
+00:00:00.000050 [7084:shadow] n/a [INFO] [n/a] [main.rs:305] [shadow_rs::core::main] arg: shadow.yaml
+00:00:00.000157 [7084:shadow] n/a [INFO] [n/a] [sim_config.rs:375] [shadow_rs::core::sim_config] Resolved binary path "h_client" to "/home/shadow-starter/simple_tcp_server_client/project-tonic/target/debug/h_client"
+00:00:00.000207 [7084:shadow] n/a [INFO] [n/a] [sim_config.rs:375] [shadow_rs::core::sim_config] Resolved binary path "h_monitor" to "/home/shadow-starter/simple_tcp_server_client/project-tonic/target/debug/h_monitor"
+00:00:00.000252 [7084:shadow] n/a [INFO] [n/a] [sim_config.rs:375] [shadow_rs::core::sim_config] Resolved binary path "h_server" to "/home/shadow-starter/simple_tcp_server_client/project-tonic/target/debug/h_server"
+00:00:00.000898 [7084:shadow] n/a [INFO] [n/a] [main.rs:205] [shadow_rs::core::main] Log message buffering is enabled for efficiency
+00:00:00.000972 [7084:shadow] n/a [INFO] [n/a] [manager.rs:907] [shadow_rs::core::manager] Found required preload library libshadow_injector.so at path /home/shadow-starter/.local/bin/../lib/libshadow_injector.so
+00:00:00.000982 [7084:shadow] n/a [INFO] [n/a] [manager.rs:907] [shadow_rs::core::manager] Found required preload library libshadow_libc.so at path /home/shadow-starter/.local/bin/../lib/libshadow_libc.so
+00:00:00.000988 [7084:shadow] n/a [INFO] [n/a] [manager.rs:907] [shadow_rs::core::manager] Found required preload library libshadow_openssl_rng.so at path /home/shadow-starter/.local/bin/../lib/libshadow_openssl_rng.so
+00:00:00.000988 [7084:shadow] n/a [INFO] [n/a] [manager.rs:126] [shadow_rs::core::manager] Preloading the openssl crypto library is disabled
+00:00:00.001166 [7084:shadow] n/a [INFO] [n/a] [controller.rs:69] [shadow_rs::core::controller] Running simulation
+Do main/network/net_namespace.rs estamos a imprimir "client"
+Do main/network/net_namespace.rs estamos a imprimir "client"
+00:00:00.001434 [7084:shadow] n/a [INFO] [n/a] [host.rs:318] [shadow_rs::host::host] Setup host id 'HostId(0)' name 'client' with seed 17532455737317977226, 122070 bwUpKiBps, 122070 bwDownKiBps, 131072 initSockSendBufSize, 174760 initSockRecvBufSize,  2500000000 cpuFrequency,  None cpuThreshold,  Some(SimulationTime(200)) cpuPrecision
+Do main/network/net_namespace.rs estamos a imprimir "monitor"
+Do main/network/net_namespace.rs estamos a imprimir "monitor"
+00:00:00.001506 [7084:shadow] n/a [INFO] [n/a] [host.rs:318] [shadow_rs::host::host] Setup host id 'HostId(1)' name 'monitor' with seed 5585044206621193833, 122070 bwUpKiBps, 122070 bwDownKiBps, 131072 initSockSendBufSize, 174760 initSockRecvBufSize,  2500000000 cpuFrequency,  None cpuThreshold,  Some(SimulationTime(200)) cpuPrecision
+Do main/network/net_namespace.rs estamos a imprimir "server"
+Do main/network/net_namespace.rs estamos a imprimir "server"
+00:00:00.001589 [7084:shadow] n/a [INFO] [n/a] [host.rs:318] [shadow_rs::host::host] Setup host id 'HostId(2)' name 'server' with seed 2832079002169068276, 122070 bwUpKiBps, 122070 bwDownKiBps, 131072 initSockSendBufSize, 174760 initSockRecvBufSize,  2500000000 cpuFrequency,  None cpuThreshold,  Some(SimulationTime(200)) cpuPrecision
+00:00:00.001814 [7098:shadow-worker] 00:00:00.000000000 [INFO] [server:11.0.0.3] [tracker.c:447] [_tracker_logNode] [shadow-heartbeat] [node-header] interval-seconds,recv-bytes,send-bytes,cpu-percent,delayed-count,avgdelay-milliseconds;inbound-localhost-counters;outbound-localhost-counters;inbound-remote-counters;outbound-remote-counters where counters are: packets-total,bytes-total,packets-control,bytes-control-header,packets-control-retrans,bytes-control-header-retrans,packets-data,bytes-data-header,bytes-data-payload,packets-data-retrans,bytes-data-header-retrans,bytes-data-payload-retrans
+00:00:00.001830 [7098:shadow-worker] 00:00:00.000000000 [INFO] [server:11.0.0.3] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.001836 [7098:shadow-worker] 00:00:00.000000000 [INFO] [client:11.0.0.1] [tracker.c:447] [_tracker_logNode] [shadow-heartbeat] [node-header] interval-seconds,recv-bytes,send-bytes,cpu-percent,delayed-count,avgdelay-milliseconds;inbound-localhost-counters;outbound-localhost-counters;inbound-remote-counters;outbound-remote-counters where counters are: packets-total,bytes-total,packets-control,bytes-control-header,packets-control-retrans,bytes-control-header-retrans,packets-data,bytes-data-header,bytes-data-payload,packets-data-retrans,bytes-data-header-retrans,bytes-data-payload-retrans
+00:00:00.001841 [7098:shadow-worker] 00:00:00.000000000 [INFO] [client:11.0.0.1] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.001843 [7098:shadow-worker] 00:00:00.000000000 [INFO] [monitor:11.0.0.2] [tracker.c:447] [_tracker_logNode] [shadow-heartbeat] [node-header] interval-seconds,recv-bytes,send-bytes,cpu-percent,delayed-count,avgdelay-milliseconds;inbound-localhost-counters;outbound-localhost-counters;inbound-remote-counters;outbound-remote-counters where counters are: packets-total,bytes-total,packets-control,bytes-control-header,packets-control-retrans,bytes-control-header-retrans,packets-data,bytes-data-header,bytes-data-payload,packets-data-retrans,bytes-data-header-retrans,bytes-data-payload-retrans
+00:00:00.001849 [7098:shadow-worker] 00:00:00.000000000 [INFO] [monitor:11.0.0.2] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.001964 [7098:shadow-worker] 00:00:00.000000000 [INFO] [monitor:11.0.0.2] [process.rs:444] [shadow_rs::host::process] starting process 'monitor.h_monitor.1000'
+00:00:00.001985 [7098:shadow-worker] 00:00:00.000000000 [INFO] [monitor:11.0.0.2] [managed_thread.c:258] [managedthread_run] forking new mthread with environment 'LD_PRELOAD=/home/shadow-starter/.local/bin/../lib/libshadow_injector.so:/home/shadow-starter/.local/bin/../lib/libshadow_libc.so:/home/shadow-starter/.local/bin/../lib/libshadow_openssl_rng.so SHADOW_SPAWNED=TRUE  SHADOW_LOG_LEVEL=3 SHADOW_LOG_START_TIME=1680257641254868 SHADOW_SHM_HOST_BLK=136,1048576,88,/shadow_shmemfile_1322.766076179-7084 SHADOW_SHM_PROCESS_BLK=16392,1048576,6064,/shadow_shmemfile_1322.766076179-7084 SHADOW_SHM_THREAD_BLK=4104,1048576,4040,/shadow_shmemfile_1322.766076179-7084 SHADOW_IPC_BLK=1032,1048576,648,/shadow_shmemfile_1322.766076179-7084 SHADOW_PID=7084 SHADOW_TSC_HZ=2304000000', arguments 'h_monitor', and working directory '/home/shadow-starter/here/simple_tcp_server_client/shadow.data/hosts/monitor'
+00:00:00.002055 [7098:shadow-worker] 00:00:00.000000000 [INFO] [monitor:11.0.0.2] [process.rs:482] [shadow_rs::host::process] process 'monitor.h_monitor.1000' started
+UM NOVO ROUND VAI COMEÇAR (round number 0), 0:0:0
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 1004
+Isto é no pre-syscall: 
+Esta instrução é um shadow_init_memory_manager, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um shadow_init_memory_manager, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 262
+Isto é no pre-syscall: 
+Esta instrução é um newfstatat, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um newfstatat, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 7
+Isto é no pre-syscall: 
+Esta instrução é um poll, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um poll, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 13
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 13
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 13
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 13
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 13
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 131
+Isto é no pre-syscall: 
+Esta instrução é um sigaltstack, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um sigaltstack, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 9
+Isto é no pre-syscall: 
+Esta instrução é um mmap, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um mmap, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 10
+Isto é no pre-syscall: 
+Esta instrução é um mprotect, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um mprotect, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 131
+Isto é no pre-syscall: 
+Esta instrução é um sigaltstack, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um sigaltstack, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 257
+Isto é no pre-syscall: 
+Esta instrução é um openat, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um openat, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 302
+Isto é no pre-syscall: 
+Esta instrução é um prlimit64, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um prlimit64, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 262
+Isto é no pre-syscall: 
+Esta instrução é um newfstatat, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um newfstatat, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 3
+Isto é no pre-syscall: 
+Esta instrução é um close, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um close, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 318
+Isto é no pre-syscall: 
+Esta instrução é um getrandom, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um getrandom, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 2
+Isto é no pre-syscall: 
+Esta instrução é um open, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um open, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 3
+Isto é no pre-syscall: 
+Esta instrução é um close, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um close, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 2
+Isto é no pre-syscall: 
+Esta instrução é um open, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um open, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 3
+Isto é no pre-syscall: 
+Esta instrução é um close, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um close, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 2
+Isto é no pre-syscall: 
+Esta instrução é um open, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um open, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 204
+Isto é no pre-syscall: 
+Esta instrução é um sched_getaffinity, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um sched_getaffinity, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 291
+Isto é no pre-syscall: 
+Esta instrução é um epoll_create1, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um epoll_create1, e vem do host 1
+Na th00:00:00.005946 [7098:shadow-worker] 00:00:00.000044030 [WARN] [monitor:11.0.0.2] [syscall_handler.c:597] [syscallhandler_make_syscall] Detected unsupported syscall 435 called from thread 1000 in process h_monitor on host monitor
+00:00:00.005949 [7098:shadow-worker] 00:00:00.000044030 [ERROR] [monitor:11.0.0.2] [syscall_handler.c:601] [syscallhandler_make_syscall] Returning error 38 (ENOSYS) for unsupported syscall 435, which may result in unusual behavior
+read 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 290
+Isto é no pre-syscall: 
+Esta instrução é um eventfd2, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um eventfd2, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 233
+Isto é no pre-syscall: 
+Esta instrução é um epoll_ctl, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um epoll_ctl, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 72
+Isto é no pre-syscall: 
+Esta instrução é um fcntl, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um fcntl, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 13
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 14
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigprocmask, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigprocmask, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 9
+Isto é no pre-syscall: 
+Esta instrução é um mmap, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um mmap, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 10
+Isto é no pre-syscall: 
+Esta instrução é um mprotect, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um mprotect, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 14
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigprocmask, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigprocmask, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 435
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 56
+Isto é no pre-syscall: 
+Esta instrução é um clone, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um clone, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 1002
+Isto é no pre-syscall: 
+Esta instrução é um shadow_get_shm_blk, e vem do host 1
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um shadow_get_shm_blk, e vem do host 1
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 334
+Isto é no pre-syscall: 
+Esta instrução é um rseq, e vem do host 1
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um rseq, e vem do host 1
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 273
+Isto é no pre-syscall: 
+Esta instrução é um set_robust_list, e vem do host 1
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um set_robust_list, e vem do host 1
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 14
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigprocmask, e vem do host 1
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigprocmask, e vem do host 1
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 131
+Isto é no pre-syscall: 
+Esta instrução é um sigaltstack, e vem do host 1
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um sigaltstack, e vem do host 1
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 14
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigprocmask, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigprocmask, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 1
+Isto é no pre-syscall: 
+Esta instrução é um write, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um write, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 41
+Isto é no pre-syscall: 
+Esta instrução é um socket, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um socket, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 54
+Isto é no pre-syscall: 
+Esta instrução é um setsockopt, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um setUM NOVO ROUND VAI COMEÇAR (round number 1), 0:0:1
+00:00:00.014968 [7098:shadow-worker] 00:00:01.000000000 [INFO] [server:11.0.0.3] [process.rs:444] [shadow_rs::host::process] starting process 'server.h_server.1000'
+00:00:00.014990 [7098:shadow-worker] 00:00:01.000000000 [INFO] [server:11.0.0.3] [managed_thread.c:258] [managedthread_run] forking new mthread with environment 'SHADOW_SPAWNED=TRUE SHADOW_LOG_LEVEL=3 SHADOW_LOG_START_TIME=1680257641254868  LD_PRELOAD=/home/shadow-starter/.local/bin/../lib/libshadow_injector.so:/home/shadow-starter/.local/bin/../lib/libshadow_libc.so:/home/shadow-starter/.local/bin/../lib/libshadow_openssl_rng.so SHADOW_SHM_HOST_BLK=264,1048576,88,/shadow_shmemfile_1322.766076179-7084 SHADOW_SHM_PROCESS_BLK=24584,1048576,6064,/shadow_shmemfile_1322.766076179-7084 SHADOW_SHM_THREAD_BLK=36872,1048576,4040,/shadow_shmemfile_1322.766076179-7084 SHADOW_IPC_BLK=3080,1048576,648,/shadow_shmemfile_1322.766076179-7084 SHADOW_PID=7084 SHADOW_TSC_HZ=2304000000', arguments 'h_server 8888', and working directory '/home/shadow-starter/here/simple_tcp_server_client/shadow.data/hosts/server'
+00:00:00.015077 [7098:shadow-worker] 00:00:01.000000000 [INFO] [server:11.0.0.3] [process.rs:482] [shadow_rs::host::process] process 'server.h_server.1000' started
+sockopt, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 9
+Isto é no pre-syscall: 
+Esta instrução é um mmap, e vem do host 1
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um mmap, e vem do host 1
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 10
+Isto é no pre-syscall: 
+Esta instrução é um mprotect, e vem do host 1
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um mprotect, e vem do host 1
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 131
+Isto é no pre-syscall: 
+Esta instrução é um sigaltstack, e vem do host 1
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um sigaltstack, e vem do host 1
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 157
+Isto é no pre-syscall: 
+Esta instrução é um prctl, e vem do host 1
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um prctl, e vem do host 1
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 49
+Isto é no pre-syscall: 
+Esta instrução é um bind, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um bind, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 50
+Isto é no pre-syscall: 
+Esta instrução é um listen, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um listen, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 16
+Isto é no pre-syscall: 
+Esta instrução é um ioctl, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um ioctl, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 12
+Isto é no pre-syscall: 
+Esta instrução é um brk, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um brk, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 9
+Isto é no pre-syscall: 
+Esta instrução é um mmap, e vem do host 1
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um mmap, e vem do host 1
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 11
+Isto é no pre-syscall: 
+Esta instrução é um munmap, e vem do host 1
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um munmap, e vem do host 1
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 11
+Isto é no pre-syscall: 
+Esta instrução é um munmap, e vem do host 1
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um munmap, e vem do host 1
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 10
+Isto é no pre-syscall: 
+Esta instrução é um mprotect, e vem do host 1
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um mprotect, e vem do host 1
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 233
+Isto é no pre-syscall: 
+Esta instrução é um epoll_ctl, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um epoll_ctl, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 51
+Isto é no pre-syscall: 
+Esta instrução é um getsockname, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um getsockname, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 202
+Isto é no pre-syscall: 
+Esta instrução é um futex, e vem do host 1
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um futex, e vem do host 1
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 204
+Isto é no pre-syscall: 
+Esta instrução é um sched_getaffinity, e vem do host 1
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um sched_getaffinity, e vem do host 1
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 318
+Isto é no pre-syscall: 
+Esta instrução é um getrandom, e vem do host 1
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um getrandom, e vem do host 1
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 232
+Isto é no pre-syscall: 
+Esta instrução é um epoll_wait, e vem do host 1
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um epoll_wait, e vem do host 1
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 1004
+Isto é no pre-sys00:00:00.017495 [7098:shadow-worker] 00:00:01.000000000 [INFO] [server:11.0.0.3] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+call: 
+Esta instrução é um shadow_init_memory_manager, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um shadow_init_memory_manager, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 262
+Isto é no pre-syscall: 
+Esta instrução é um newfstatat, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um newfstatat, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 7
+Isto é no pre-syscall: 
+Esta instrução é um poll, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um poll, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 13
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 13
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 13
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 13
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 13
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 131
+Isto é no pre-syscall: 
+Esta instrução é um sigaltstack, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um sigaltstack, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 9
+Isto é no pre-syscall: 
+Esta instrução é um mmap, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um mmap, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 10
+Isto é no pre-syscall: 
+Esta instrução é um mprotect, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um mprotect, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 131
+Isto é no pre-syscall: 
+Esta instrução é um sigaltstack, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um sigaltstack, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 257
+Isto é no pre-syscall: 
+Esta instrução é um openat, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um openat, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 302
+Isto é no pre-syscall: 
+Esta instrução é um prlimit64, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um prlimit64, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 262
+Isto é no pre-syscall: 
+Esta instrução é um newfstatat, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um newfstatat, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 3
+Isto é no pre-syscall: 
+Esta instrução é um close, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um close, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 318
+Isto é no pre-syscall: 
+Esta instrução é um getrandom, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um getrandom, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 2
+Isto é no pre-syscall: 
+Esta instrução é um open, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um open, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 3
+Isto é no pre-syscall: 
+Esta instrução é um close, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um close, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 2
+Isto é no pre-syscall: 
+Esta instrução é um open, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um open, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 3
+Isto é no pre-syscall: 
+Esta instrução é um close, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um close, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 2
+Isto é no pre-syscall: 
+Esta instrução é um open, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um open, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 204
+Isto é no pre-syscall: 
+Esta instrução é um sched_getaffinity, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um sched_getaffinity, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 291
+Isto é no pre-syscall: 
+Est00:00:00.018711 [7098:shadow-worker] 00:00:01.000044030 [WARN] [server:11.0.0.3] [syscall_handler.c:597] [syscallhandler_make_syscall] Detected unsupported syscall 435 called from thread 1000 in process h_server on host server
+00:00:00.018714 [7098:shadow-worker] 00:00:01.000044030 [ERROR] [server:11.0.0.3] [syscall_handler.c:601] [syscallhandler_make_syscall] Returning error 38 (ENOSYS) for unsupported syscall 435, which may result in unusual behavior
+a instrução é um epoll_create1, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um epoll_create1, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 290
+Isto é no pre-syscall: 
+Esta instrução é um eventfd2, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um eventfd2, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 233
+Isto é no pre-syscall: 
+Esta instrução é um epoll_ctl, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um epoll_ctl, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 72
+Isto é no pre-syscall: 
+Esta instrução é um fcntl, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um fcntl, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 13
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 14
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigprocmask, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigprocmask, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 9
+Isto é no pre-syscall: 
+Esta instrução é um mmap, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um mmap, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 10
+Isto é no pre-syscall: 
+Esta instrução é um mprotect, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um mprotect, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 14
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigprocmask, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigprocmask, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 435
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 56
+Isto é no pre-syscall: 
+Esta instrução é um clone, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um clone, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 14
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigprocmask, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigprocmask, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 1002
+Isto é no pre-syscall: 
+Esta instrução é um shadow_get_shm_blk, e vem do host 2
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um shadow_get_shm_blk, e vem do host 2
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 334
+Isto é no pre-syscall: 
+Esta instrução é um rseq, e vem do host 2
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um rseq, e vem do host 2
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 273
+Isto é no pre-syscall: 
+Esta instrução é um set_robust_list, e vem do host 2
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um set_robust_list, e vem do host 2
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 14
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigprocmask, e vem do host 2
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigprocmask, e vem do host 2
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 131
+Isto é no pre-syscall: 
+Esta instrução é um sigaltstack, e vem do host 2
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um sigaltstack, e vem do host 2
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 1
+Isto é no pre-syscall: 
+Esta instrução é um write, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um write, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 41
+Isto é no pre-syscall: 
+Esta instrução é um socket, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um socket, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYS00:00:00.027548 [7098:shadow-worker] 00:00:01.000000000 [INFO] [client:11.0.0.1] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.027559 [7098:shadow-worker] 00:00:01.000000000 [INFO] [monitor:11.0.0.2] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+UM NOVO ROUND VAI COMEÇAR (round number 2), 0:0:2
+00:00:00.027637 [7084:shadow] n/a [INFO] [n/a] [manager.rs:764] [shadow_rs::core::manager] Process resource usage at simtime 2000000000 reported by getrusage(): ru_maxrss=0.155 GiB, ru_utime=0.000 minutes, ru_stime=0.000 minutes, ru_nvcsw=260, ru_nivcsw=1, _manager_heartbeat
+00:00:00.027638 [7098:shadow-worker] 00:00:02.000000000 [INFO] [server:11.0.0.3] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.027644 [7098:shadow-worker] 00:00:02.000000000 [INFO] [client:11.0.0.1] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.027649 [7098:shadow-worker] 00:00:02.000000000 [INFO] [monitor:11.0.0.2] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+UM NOVO ROUND VAI COMEÇAR (round number 3), 0:0:3
+00:00:00.027739 [7098:shadow-worker] 00:00:03.000000000 [INFO] [server:11.0.0.3] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.027744 [7098:shadow-worker] 00:00:03.000000000 [INFO] [client:11.0.0.1] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.027749 [7098:shadow-worker] 00:00:03.000000000 [INFO] [monitor:11.0.0.2] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+UM NOVO ROUND VAI COMEÇAR (round number 4), 0:0:4
+00:00:00.027831 [7098:shadow-worker] 00:00:04.000000000 [INFO] [server:11.0.0.3] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.027832 [7084:shadow] n/a [INFO] [n/a] [manager.rs:764] [shadow_rs::core::manager] Process resource usage at simtime 4000000000 reported by getrusage(): ru_maxrss=0.155 GiB, ru_utime=0.000 minutes, ru_stime=0.000 minutes, ru_nvcsw=266, ru_nivcsw=1, _manager_heartbeat
+00:00:00.027836 [7098:shadow-worker] 00:00:04.000000000 [INFO] [client:11.0.0.1] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.027841 [7098:shadow-worker] 00:00:04.000000000 [INFO] [monitor:11.0.0.2] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+UM NOVO ROUND VAI COMEÇAR (round number 5), 0:0:5
+00:00:00.027956 [7098:shadow-worker] 00:00:05.000000000 [INFO] [server:11.0.0.3] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.027964 [7098:shadow-worker] 00:00:05.000000000 [INFO] [client:11.0.0.1] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.027969 [7098:shadow-worker] 00:00:05.000000000 [INFO] [monitor:11.0.0.2] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+UM NOVO ROUND VAI COMEÇAR (round number 6), 0:0:6
+00:00:00.028027 [7084:shadow] n/a [INFO] [n/a] [manager.rs:764] [shadow_rs::core::manager] Process resource usage at simtime 6000000000 reported by getrusage(): ru_maxrss=0.155 GiB, ru_utime=0.000 minutes, ru_stime=0.000 minutes, ru_nvcsw=273, ru_nivcsw=1, _manager_heartbeat
+00:00:00.028079 [7098:shadow-worker] 00:00:06.000000000 [INFO] [server:11.0.0.3] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.028150 [7098:shadow-worker] 00:00:06.000000000 [INFO] [client:11.0.0.1] [process.rs:444] [shadow_rs::host::process] starting process 'client.h_client.1000'
+00:00:00.028173 [7098:shadow-worker] 00:00:06.000000000 [INFO] [client:11.0.0.1] [managed_thread.c:258] [managedthread_run] forking new mthread with environment 'SHADOW_LOG_LEVEL=3 SHADOW_SPAWNED=TRUE  LD_PRELOAD=/home/shadow-starter/.local/bin/../lib/libshadow_injector.so:/home/shadow-starter/.local/bin/../lib/libshadow_libc.so:/home/shadow-starter/.local/bin/../lib/libshadow_openssl_rng.so SHADOW_LOG_START_TIME=1680257641254868 SHADOW_SHM_HOST_BLK=8,1048576,88,/shadow_shmemfile_1322.766076179-7084 SHADOW_SHM_PROCESS_BLK=8200,1048576,6064,/shadow_shmemfile_1322.766076179-7084 SHADOW_SHM_THREAD_BLK=49160,1048576,4040,/shadow_shmemfile_1322.766076179-7084 SHADOW_IPC_BLK=46088,1048576,648,/shadow_shmemfile_1322.766076179-7084 SHADOW_PID=7084 SHADOW_TSC_HZ=2304000000', arguments 'h_client 8888', and working directory '/home/shadow-starter/here/simple_tcp_server_client/shadow.data/hosts/client'
+00:00:00.028274 [7098:shadow-worker] 00:00:06.000000000 [INFO] [client:11.0.0.1] [process.rs:482] [shadow_rs::host::process] process 'client.h_client.1000' started
+00:00:00.030589 [7098:shadow-worker] 00:00:06.000000000 [INFO] [client:11.0.0.1] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+CALL 54
+Isto é no pre-syscall: 
+Esta instrução é um setsockopt, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um setsockopt, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 49
+Isto é no pre-syscall: 
+Esta instrução é um bind, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um bind, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 9
+Isto é no pre-syscall: 
+Esta instrução é um mmap, e vem do host 2
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um mmap, e vem do host 2
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 10
+Isto é no pre-syscall: 
+Esta instrução é um mprotect, e vem do host 2
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um mprotect, e vem do host 2
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 131
+Isto é no pre-syscall: 
+Esta instrução é um sigaltstack, e vem do host 2
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um sigaltstack, e vem do host 2
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 157
+Isto é no pre-syscall: 
+Esta instrução é um prctl, e vem do host 2
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um prctl, e vem do host 2
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 50
+Isto é no pre-syscall: 
+Esta instrução é um listen, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um listen, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 288
+Isto é no pre-syscall: 
+Esta instrução é um accept4, e vem do host 2
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um accept4, e vem do host 2
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 9
+Isto é no pre-syscall: 
+Esta instrução é um mmap, e vem do host 2
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um mmap, e vem do host 2
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 11
+Isto é no pre-syscall: 
+Esta instrução é um munmap, e vem do host 2
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um munmap, e vem do host 2
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 11
+Isto é no pre-syscall: 
+Esta instrução é um munmap, e vem do host 2
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um munmap, e vem do host 2
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 10
+Isto é no pre-syscall: 
+Esta instrução é um mprotect, e vem do host 2
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um mprotect, e vem do host 2
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 204
+Isto é no pre-syscall: 
+Esta instrução é um sched_getaffinity, e vem do host 2
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um sched_getaffinity, e vem do host 2
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 318
+Isto é no pre-syscall: 
+Esta instrução é um getrandom, e vem do host 2
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um getrandom, e vem do host 2
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 232
+Isto é no pre-syscall: 
+Esta instrução é um epoll_wait, e vem do host 2
+Na thread 1001
+
+Isto é no post-syscall: 
+Esta instrução é um epoll_wait, e vem do host 2
+Na thread 1001
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 1004
+Isto é no pre-syscall: 
+Esta instrução é um shadow_init_memory_manager, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um shadow_init_memory_manager, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 262
+Isto é no pre-syscall: 
+Esta instrução é um newfstatat, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um newfstatat, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 7
+Isto é no pre-syscall: 
+Esta instrução é um poll, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um poll, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 13
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 13
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 13
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 13
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 13
+Isto é no pre-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um rt_sigaction, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 131
+Isto é no pre-syscall: 
+Esta instrução é um sigaltstack, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um sigaltstack, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 9
+Isto é no pre-syscall: 
+Esta instrução é um mmap, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um mmap, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 10
+Isto é no pre-syscall: 
+Esta instrução é um mprotect, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um mprotect, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 131
+Isto é no pre-syscall: 
+Esta instrução é um sigaltstack, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um sigaltstack, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 257
+Isto é no pre-syscall: 
+Esta instrução é um openat, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um openat, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 302
+Isto é no pre-syscall: 
+Esta instrução é um prlimit64, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um prlimit64, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 262
+Isto é no pre-syscall: 
+Esta instrução é um newfstatat, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um newfstatat, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é u00:00:00.031299 [7098:shadow-worker] 00:00:06.000000000 [INFO] [monitor:11.0.0.2] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+UM NOVO ROUND VAI COMEÇAR (round number 7), 0:0:7
+00:00:00.031372 [7098:shadow-worker] 00:00:07.000000000 [INFO] [server:11.0.0.3] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.031379 [7098:shadow-worker] 00:00:07.000000000 [INFO] [client:11.0.0.1] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;1,40,1,40,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.031394 [7098:shadow-worker] 00:00:07.000000000 [INFO] [monitor:11.0.0.2] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+UM NOVO ROUND VAI COMEÇAR (round number 8), 0:0:8
+00:00:00.031452 [7084:shadow] n/a [INFO] [n/a] [manager.rs:764] [shadow_rs::core::manager] Process resource usage at simtime 8000000000 reported by getrusage(): ru_maxrss=0.155 GiB, ru_utime=0.000 minutes, ru_stime=0.000 minutes, ru_nvcsw=325, ru_nivcsw=1, _manager_heartbeat
+00:00:00.031457 [7098:shadow-worker] 00:00:08.000000000 [INFO] [server:11.0.0.3] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.031462 [7098:shadow-worker] 00:00:08.000000000 [INFO] [client:11.0.0.1] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;1,40,0,0,1,40,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.031467 [7098:shadow-worker] 00:00:08.000000000 [INFO] [monitor:11.0.0.2] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+UM NOVO ROUND VAI COMEÇAR (round number 9), 0:0:9
+UM NOVO ROUND VAI COMEÇAR (round number 10), 0:0:10
+00:00:00.031530 [7098:shadow-worker] 00:00:09.000000000 [INFO] [server:11.0.0.3] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.031536 [7098:shadow-worker] 00:00:09.000000000 [INFO] [client:11.0.0.1] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.031545 [7098:shadow-worker] 00:00:09.000000000 [INFO] [monitor:11.0.0.2] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.031557 [7084:shadow] n/a [INFO] [n/a] [manager.rs:764] [shadow_rs::core::manager] Process resource usage at simtime 10000000000 reported by getrusage(): ru_maxrss=0.155 GiB, ru_utime=0.000 minutes, ru_stime=0.000 minutes, ru_nvcsw=330, ru_nivcsw=1, _manager_heartbeat
+00:00:00.031562 [7098:shadow-worker] 00:00:10.000000000 [INFO] [server:11.0.0.3] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.031567 [7098:shadow-worker] 00:00:10.000000000 [INFO] [client:11.0.0.1] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;1,40,0,0,1,40,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.031572 [7098:shadow-worker] 00:00:10.000000000 [INFO] [monitor:11.0.0.2] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+UM NOVO ROUND VAI COMEÇAR (round number 11), 0:0:11
+00:00:00.031600 [7098:shadow-worker] 00:00:11.000000000 [INFO] [server:11.0.0.3] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.031606 [7098:shadow-worker] 00:00:11.000000000 [INFO] [client:11.0.0.1] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+00:00:00.031612 [7098:shadow-worker] 00:00:11.000000000 [INFO] [monitor:11.0.0.2] [tracker.c:473] [_tracker_logNode] [shadow-heartbeat] [node] 1,0,0,0.000000,0,0.000000;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0
+UM NOVO ROUND VAI COMEÇAR (round number 12), 4861127:291667654:33
+00:00:00.031625 [7098:shadow-worker] 00:00:12.000000000 [INFO] [server:11.0.0.3] [process.rs:575] [shadow_rs::host::process] terminating process server.h_server.1000
+00:00:00.031637 [7098:shadow-worker] 00:00:12.000000000 [INFO] [server:11.0.0.3] [syscall_handler.c:132] [_syscallhandler_free] handled 53 syscalls
+00:00:00.031648 [7098:shadow-worker] 00:00:12.000000000 [INFO] [server:11.0.0.3] [syscall_handler.c:138] [_syscallhandler_free] Thread 1000 (h_server) syscall counts: {read:14, rt_sigaction:6, close:3, open:3, rt_sigprocmask:3, mmap:2, mprotect:2, newfstatat:2, sigaltstack:2, accept4:1, bind:1, clone:1, epoll_create1:1, epoll_ctl:1, eventfd2:1, fcntl:1, getrandom:1, listen:1, openat:1, poll:1, prlimit64:1, sched_getaffinity:1, setsockopt:1, shadow_init_memory_manager:1, socket:1, write:1}
+00:00:00.031661 [7098:shadow-worker] 00:00:12.000000000 [INFO] [server:11.0.0.3] [syscall_handler.c:132] [_syscallhandler_free] handled 15 syscalls
+00:00:00.031666 [7098:shadow-worker] 00:00:12.000000000 [INFO] [server:11.0.0.3] [syscall_handler.c:138] [_syscallhandler_free] Thread 1001 (h_server) syscall counts: {mmap:2, mprotect:2, munmap:2, sigaltstack:2, epoll_wait:1, getrandom:1, prctl:1, rseq:1, rt_sigprocmask:1, sched_getaffinity:1, set_robust_list:1, shadow_get_shm_blk:1}
+00:00:00.031672 [7098:shadow-worker] 00:00:12.000000000 [INFO] [server:11.0.0.3] [process.rs:1095] [shadow_rs::host::process] process 'server.h_server.1000' has completed or is otherwise no longer running
+00:00:00.031951 [7098:shadow-worker] 00:00:12.000000000 [INFO] [server:11.0.0.3] [process.rs:1083] [shadow_rs::host::process] process 'server.h_server.1000' killed by Shadow
+00:00:00.031971 [7098:shadow-worker] 00:00:12.000000000 [INFO] [server:11.0.0.3] [process.rs:590] [shadow_rs::host::process] process 'server.h_server.1000' stopped
+00:00:00.031972 [7098:shadow-worker] 00:00:12.000000000 [INFO] [server:11.0.0.3] [process.rs:1095] [shadow_rs::host::process] process 'server.h_server.1000' has completed or is otherwise no longer running
+00:00:00.032060 [7098:shadow-worker] 00:00:12.000000000 [INFO] [client:11.0.0.1] [process.rs:575] [shadow_rs::host::process] terminating process client.h_client.1000
+00:00:00.032068 [7098:shadow-worker] 00:00:12.000000000 [INFO] [client:11.0.0.1] [syscall_handler.c:132] [_syscallhandler_free] handled 31 syscalls
+00:00:00.032074 [7098:shadow-worker] 00:00:12.000000000 [INFO] [client:11.0.0.1] [syscall_handler.c:138] [_syscallhandler_free] Thread 1000 (h_client) syscall counts: {read:13, rt_sigaction:5, newfstatat:2, sigaltstack:2, close:1, connect:1, mmap:1, mprotect:1, openat:1, poll:1, prlimit64:1, shadow_init_memory_manager:1, socket:1, write:1}
+00:00:00.032077 [7098:shadow-worker] 00:00:12.000000000 [INFO] [client:11.0.0.1] [process.rs:1095] [shadow_rs::host::process] process 'client.h_client.1000' has completed or is otherwise no longer running
+00:00:00.032237 [7098:shadow-worker] 00:00:12.000000000 [INFO] [client:11.0.0.1] [process.rs:1083] [shadow_rs::host::process] process 'client.h_client.1000' killed by Shadow
+00:00:00.032251 [7098:shadow-worker] 00:00:12.000000000 [INFO] [client:11.0.0.1] [process.rs:590] [shadow_rs::host::process] process 'client.h_client.1000' stopped
+00:00:00.032252 [7098:shadow-worker] 00:00:12.000000000 [INFO] [client:11.0.0.1] [process.rs:1095] [shadow_rs::host::process] process 'client.h_client.1000' has completed or is otherwise no longer running
+00:00:00.032317 [7098:shadow-worker] 00:00:12.000000000 [INFO] [monitor:11.0.0.2] [process.rs:575] [shadow_rs::host::process] terminating process monitor.h_monitor.1000
+00:00:00.032325 [7098:shadow-worker] 00:00:12.000000000 [INFO] [monitor:11.0.0.2] [syscall_handler.c:132] [_syscallhandler_free] handled 56 syscalls
+00:00:00.032336 [7098:shadow-worker] 00:00:12.000000000 [INFO] [monitor:11.0.0.2] [syscall_handler.c:138] [_syscallhandler_free] Thread 1000 (h_monitor) syscall counts: {read:13, rt_sigaction:6, close:3, open:3, rt_sigprocmask:3, epoll_ctl:2, mmap:2, mprotect:2, newfstatat:2, sigaltstack:2, bind:1, brk:1, clone:1, epoll_create1:1, eventfd2:1, fcntl:1, futex:1, getrandom:1, getsockname:1, ioctl:1, listen:1, openat:1, poll:1, prlimit64:1, sched_getaffinity:1, setsockopt:1, shadow_init_memory_manager:1, socket:1, write:1}
+00:00:00.032344 [7098:shadow-worker] 00:00:12.000000000 [INFO] [monitor:11.0.0.2] [syscall_handler.c:132] [_syscallhandler_free] handled 15 syscalls
+00:00:00.032348 [7098:shadow-worker] 00:00:12.000000000 [INFO] [monitor:11.0.0.2] [syscall_handler.c:138] [_syscallhandler_free] Thread 1001 (h_monitor) syscall counts: {mmap:2, mprotect:2, munmap:2, sigaltstack:2, epoll_wait:1, getrandom:1, prctl:1, rseq:1, rt_sigprocmask:1, sched_getaffinity:1, set_robust_list:1, shadow_get_shm_blk:1}
+00:00:00.032351 [7098:shadow-worker] 00:00:12.000000000 [INFO] [monitor:11.0.0.2] [process.rs:1095] [shadow_rs::host::process] process 'monitor.h_monitor.1000' has completed or is otherwise no longer running
+00:00:00.032617 [7098:shadow-worker] 00:00:12.000000000 [INFO] [monitor:11.0.0.2] [process.rs:1083] [shadow_rs::host::process] process 'monitor.h_monitor.1000' killed by Shadow
+00:00:00.032635 [7098:shadow-worker] 00:00:12.000000000 [INFO] [monitor:11.0.0.2] [process.rs:590] [shadow_rs::host::process] process 'monitor.h_monitor.1000' stopped
+00:00:00.032636 [7098:shadow-worker] 00:00:12.000000000 [INFO] [monitor:11.0.0.2] [process.rs:1095] [shadow_rs::host::process] process 'monitor.h_monitor.1000' has completed or is otherwise no longer running
+00:00:00.032835 [7084:shadow] n/a [INFO] [n/a] [manager.rs:510] [shadow_rs::core::manager] Global syscall counts: {read:40, rt_sigaction:17, sigaltstack:10, mmap:9, mprotect:9, rt_sigprocmask:8, close:7, newfstatat:6, open:6, getrandom:4, munmap:4, sched_getaffinity:4, epoll_ctl:3, openat:3, poll:3, prlimit64:3, shadow_init_memory_manager:3, socket:3, write:3, bind:2, clone:2, epoll_create1:2, epoll_wait:2, eventfd2:2, fcntl:2, listen:2, prctl:2, rseq:2, set_robust_list:2, setsockopt:2, shadow_get_shm_blk:2, accept4:1, brk:1, connect:1, futex:1, getsockname:1, ioctl:1}
+00:00:00.032839 [7084:shadow] n/a [INFO] [n/a] [manager.rs:518] [shadow_rs::core::manager] Global allocated object counts: {TaskRef:151, Event:73, LegacyDescriptor:28, RegularFile:18, SysCallCondition:18, Timer:16, Relay:9, StatusListener:8, Epoll:7, NetworkInterface:6, ManagedThread:5, SysCallHandler:5, FutexTable:3, LegacyTcpSocket:3, Router:3, TCP:3, Futex:1, Packet:1}
+00:00:00.032842 [7084:shadow] n/a [INFO] [n/a] [manager.rs:519] [shadow_rs::core::manager] Global deallocated object counts: {TaskRef:151, Event:73, LegacyDescriptor:28, RegularFile:18, SysCallCondition:18, Timer:16, Relay:9, StatusListener:8, Epoll:7, NetworkInterface:6, ManagedThread:5, SysCallHandler:5, FutexTable:3, LegacyTcpSocket:3, Router:3, TCP:3, Futex:1, Packet:1}
+00:00:00.032843 [7084:shadow] n/a [INFO] [n/a] [manager.rs:522] [shadow_rs::core::manager] We allocated and deallocated the same number of objects :)
+00:00:00.033733 [7084:shadow] n/a [INFO] [n/a] [controller.rs:71] [shadow_rs::core::controller] Finished simulation
+00:00:00.033735 [7084:shadow] n/a [INFO] [n/a] [main.rs:215] [shadow_rs::core::main] Log message buffering is disabled during cleanup
+m read, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 0
+Isto é no pre-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um read, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 3
+Isto é no pre-syscall: 
+Esta instrução é um close, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um close, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 1
+Isto é no pre-syscall: 
+Esta instrução é um write, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um write, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 41
+Isto é no pre-syscall: 
+Esta instrução é um socket, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um socket, e vem do host 0
+Na thread 1000
+
+ESTAMOS A TENTAR DAR HANDLE DA SYSCALL 42
+Isto é no pre-syscall: 
+Esta instrução é um connect, e vem do host 0
+Na thread 1000
+
+Isto é no post-syscall: 
+Esta instrução é um connect, e vem do host 0
+Na thread 1000
+
