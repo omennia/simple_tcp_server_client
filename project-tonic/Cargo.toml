@@ -4,16 +4,16 @@ version = "0.1.0"
 edition = "2021"
 
 [[bin]] # Bin to run the Monitor gRPC server
-name = "monitor"
-path = "src/monitor.rs"
+name = "h_monitor"
+path = "src/h_monitor.rs"
 
 [[bin]] # Bin to run the server
-name = "server"
-path = "src/server.rs"
+name = "h_server"
+path = "src/h_server.rs"
 
 [[bin]] # Bin to run the client
-name = "client"
-path = "src/client.rs"
+name = "h_client"
+path = "src/h_client.rs"
 
 
 [dependencies]

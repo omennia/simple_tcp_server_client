@@ -1,27 +1,29 @@
 general:
-  stop_time: 12s
-  model_unblocked_syscall_latency: true
+  stop_time: 30s
+  model_unblocked_syscall_latency: false # Isto tem de estar a false 
 
 network:
   graph:
     type: 1_gbit_switch
 
 hosts:
-  monitor:
+  monitor:  
+    ip_addr: 11.19.171.162
     network_node_id: 0
     processes:
     - path: h_monitor
+      args: "11.19.171.162"
       start_time: 0s
   server:
     network_node_id: 0
     processes:
     - path: h_server
-      args: "8888"
+      args: server 11.19.171.162
       start_time: 1s
   client:
     network_node_id: 0
-    quantity: 1
+    quantity: 3
     processes:
     - path: h_client
-      args: "8888"
-      start_time: 6s
+      args: server
+      start_time: 4s
